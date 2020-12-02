@@ -230,6 +230,7 @@ nav.nav-bar{
     font-weight: 400;
     padding-bottom: 0.5rem;
     font-family: 'Playfair Display';
+    letter-spacing: 5px;
     
 }
 
@@ -287,6 +288,7 @@ nav.nav-bar{
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     padding-bottom: 0.5rem;
+    letter-spacing: 5px;
 }
 
 
@@ -393,6 +395,7 @@ nav.nav-bar{
  
     font-size: 4rem;
     padding: 2rem;
+    letter-spacing: 6px;
 }
 
 }
@@ -571,6 +574,7 @@ nav.nav-bar{
     font-size: 1.1rem;
     font-family: 'Playfair Display', serif;
     text-align: justify;
+    letter-spacing: 5px;
     
 }
 
@@ -593,17 +597,20 @@ nav.nav-bar{
     justify-content: center;
 }
 
-
-
 div.social-i {
     display: flex;
     flex-direction: row ;
     font-size: 1.5rem;
 }
 
+div.social{
+    padding-bottom: 3rem;
+}
+
 div.social-i :hover{
     cursor: pointer;
 }
+
 @media only screen and (min-width: 760px) {
     .contact-page div{
         width: 30vw;
@@ -635,9 +642,6 @@ div.social-i :hover{
     width: 50px;
     height: 50px;
     background-color: #F8F8F8;
-  
-    
-    
 }
 
   
