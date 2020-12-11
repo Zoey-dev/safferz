@@ -749,3 +749,71 @@ div.social-i :hover{
 #page6{
     font-weight: bold;
 }
+
+.contact-page1{
+    padding: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+
+.contact-page1 h1{
+    font-size: 1.1rem;
+    /* font-family: 'Playfair Display', serif; */
+    text-align: justify;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.contact-page1 p{
+    /* font-family: 'Castoro', serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    text-align: justify;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.contact-page1 i{
+    padding: 0.5rem;
+}
+
+.contact-page1 > div{
+    padding: 1rem 1rem ;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+div.social-i {
+    display: flex;
+    flex-direction: row ;
+    font-size: 1.5rem;
+}
+
+div.social{
+    padding-bottom: 3rem;
+}
+
+div.social-i :hover{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 760px) {
+    .contact-page1 div{
+        width: 30vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .contact-page1 div{
+        width: 19vw;
+    }
+}
+
